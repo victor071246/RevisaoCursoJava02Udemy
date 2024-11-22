@@ -6,7 +6,9 @@ public class Data {
     int mes;
     int ano;
 
-    Data(){}
+    Data(){
+        this(1, 1, 2017);
+    }
 
     Data(int dia, int mes, int ano){
         this.dia = dia;
